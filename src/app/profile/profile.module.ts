@@ -12,6 +12,7 @@ import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
     EducationComponent,
     ExperienceComponent,
     SkillsComponent,
+    ProjectsComponent,
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
